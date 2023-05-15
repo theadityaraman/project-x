@@ -1,3 +1,4 @@
+<!-- forked from https://github.com/bioinfolabmu/jnsviewer -->
 <div class="container">
 	<h1>Contact</h1><br>
 	<p>If you have any questions or comments, please contact Aditya Raman. (<a href="#" onclick="send();">ramad@utschools.ca</a>).</p>
@@ -15,7 +16,7 @@
 	$('#contact').on('submit', function send() {
 		var msg = $('#msg').val();
 		var subject = $('#subject').val();
-		var address = 'theadityaraman@gmail.com';
+		var address = 'ramad@utschools.ca';
 		var link = 'mailto:' + address + '?subject=' + subject + '&body=' + msg;
 		window.location.href = link;
 		return false;
